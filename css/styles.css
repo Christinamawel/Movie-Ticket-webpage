@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color:rgb(0, 0, 110);
+}
+
+#movie-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 90vh;
+}
+
+.container {
+  background-color: white;
+  padding: 1em 0;
+  margin: 1em auto;
+  border-radius: 1em;
+}
+
+h1 {
+  color:rgb(0, 0, 110);
+  font-weight: bold;
+}
+
+.movie-card {
+  width: 35%;
+}
+
+img {
+  height: 25vh;
+}
+
+button {
+  border: none;
+  border-radius: .5em;
+  padding: .5em;
+  background-color:rgb(0, 0, 110);
+  color: white;
+  display: block;
+  margin: 1em auto;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+#output-div {
+  font-size: 4rem;
+  color:rgb(0, 0, 110);
+  font-weight: bold;
+}
